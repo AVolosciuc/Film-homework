@@ -5,9 +5,7 @@ html, body {
 }
 
 body {
-    /* display: flex; */
     margin-top: 50px;
-    /* flex-direction: column; */
     background: linear-gradient(0deg, rgba(14,116,117,1) 10%, rgba(80,134,92,1) 28%, rgba(255,182,25,1) 68%);
 }
 .container {
@@ -17,42 +15,26 @@ body {
 }
 
 img {
-    max-width: 100%;
+    margin-top: 0;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
 }
 
+img:hover{
+    transform: scale(1.2);
+    border-radius: 0;
+}
 
-.card_main {
+.card {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 1px solid bisque;
     border-radius: 20px;
-    height: 600px;
-    width: 400px;
+    width: 200px;
     background-color: rgb(216, 131, 27);
+    -webkit-box-shadow: 5px -1px 19px 1px #000000; 
+    box-shadow: 5px -1px 19px 1px #000000;
 }
 
-.card_second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid bisque;
-    border-radius: 20px;
-    height: 600px;
-    width: 400px;
-    background-color: rgb(216, 131, 27);
-}
-
-.card_third {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid bisque;
-    border-radius: 20px;
-    height: 600px;
-    width: 400px;
-    background-color: rgb(216, 131, 27);
-}
